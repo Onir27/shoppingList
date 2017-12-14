@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        guard let shoppingList = ShoppingItemJSONManager().readFromJsonFile() else {
+            return
+        }
+        print (shoppingList)
     }
 
     override func didReceiveMemoryWarning() {
