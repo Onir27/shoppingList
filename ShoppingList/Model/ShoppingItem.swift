@@ -13,6 +13,8 @@ struct ShoppingItem {
     let unitPrice: String
     let quantity: Int
     let description: String
+    let category: String
+    let units: String
 }
 
 extension ShoppingItem: Parsable {
@@ -22,5 +24,7 @@ extension ShoppingItem: Parsable {
         self.unitPrice = dictionary["unitPrice"] as? String ?? ""
         self.quantity = dictionary["quantity"] as? Int ?? 0
         self.description = dictionary["description"] as? String ?? ""
+        self.category = dictionary["category"] as? String ?? ""
+        self.units = dictionary["units"] as? String ?? ""
     }
 }

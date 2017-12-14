@@ -5,167 +5,191 @@
                 "unitPrice": "$2.95",
                 "quantity": 1,
                 "units": "13.3 oz",
-                "description": "Chocolate"
-            },
-            {
+                "description": "Chocolate",
+                "category": "Snacks"
+                },
+                {
                 "name": "Black Berries",
                 "imageName": "Blackberries",
                 "unitPrice": "$2.93",
                 "quantity": 1,
                 "units": "",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Apples",
                 "imageName": "Apple",
                 "unitPrice": "$1.01",
                 "quantity": 1,
                 "units": "lb",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Blue Berries",
                 "imageName": "Blueberries",
                 "unitPrice": "$4.95",
                 "quantity": 1,
                 "units": "",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Steak",
                 "imageName": "Steak",
                 "unitPrice": "$11.99",
                 "quantity": 1,
                 "units": "1 lb",
-                "description": "T-Bone"
-            },
-            {
+                "description": "T-Bone",
+                "category": "Meat"
+                },
+                {
                 "name": "Bread",
                 "imageName": "Bread",
                 "unitPrice": "$3.99",
                 "quantity": 1,
                 "units": "",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Groceries"
+                },
+                {
                 "name": "Orange Juice",
                 "imageName": "Orangejuice",
                 "unitPrice": "$5.00",
                 "quantity": 1,
                 "units": "12 oz",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Groceries"
+                },
+                {
                 "name": "Bananas",
                 "imageName": "Banana",
                 "unitPrice": "$0.99",
                 "quantity": 1,
                 "units": "1 lb",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Cantaloupe",
                 "imageName": "Canteloupe",
                 "unitPrice": "$0.63",
                 "quantity": 1,
                 "units": "1 lb",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Cheerios",
                 "imageName": "Cheerios",
                 "unitPrice": "$3.13",
                 "quantity": 1,
                 "units": "12 oz",
-                "description": "Gluten Free"
-            },
-            {
+                "description": "Gluten Free",
+                "category": "Fruit"
+                },
+                {
                 "name": "Turkey",
                 "imageName": "Turkey",
                 "unitPrice": "$23.04",
                 "quantity": 1,
                 "units": "16 lb",
-                "description": "Fresh"
-            },
-            {
+                "description": "Fresh",
+                "category": "Meat"
+                },
+                {
                 "name": "Dates",
                 "imageName": "Dates",
                 "unitPrice": "$3.49",
                 "quantity": 1,
                 "units": "1 lb",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Groceries"
+                },
+                {
                 "name": "Dragon Fruit",
                 "imageName": "Dragonfruit",
                 "unitPrice": "$7.34",
                 "quantity": 1,
                 "units": "3 oz",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Figs",
                 "imageName": "Fig",
                 "unitPrice": "$4.09",
                 "quantity": 1,
                 "units": "5 oz",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Ground Beef",
                 "imageName": "Groundbeef",
                 "unitPrice": "$7.49",
                 "quantity": 1,
                 "units": "1 lb",
-                "description": "Fresh"
-            },
-            {
+                "description": "Fresh",
+                "category": "Meat"
+                
+                },
+                {
                 "name": "Hot Dog Buns",
                 "imageName": "Hotdogbun",
                 "unitPrice": "$3.29",
                 "quantity": 1,
                 "units": "8 ct",
-                "description": "Enriched Buns"
-            },
-            {
+                "description": "Enriched Buns",
+                "category": "Groceries"
+                },
+                {
                 "name": "Eggs",
                 "imageName": "Eggs",
                 "unitPrice": "$7.49",
                 "quantity": 1,
                 "units": "1 dozen",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Groceries"
+                
+                },
+                {
                 "name": "Peaches",
                 "imageName": "Peach",
                 "unitPrice": "$7.49",
                 "quantity": 1,
                 "units": "3 lb",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Oranges",
                 "imageName": "Orange",
                 "unitPrice": "$5.49",
                 "quantity": 1,
                 "units": "12 ct",
-                "description": "Organic"
-            },
-            {
+                "description": "Organic",
+                "category": "Fruit"
+                },
+                {
                 "name": "Mineral Water",
                 "imageName": "Mineralwater",
                 "unitPrice": "$5.00",
                 "quantity": 1,
                 "units": "12 ct",
-                "description": "Sparkling Mineral Water"
-            },
-            {
+                "description": "Sparkling Mineral Water",
+                "category": "Groceries"
+                },
+                {
                 "name":"Rice Krispies",
                 "imageName": "Rice_krispies",
                 "unitPrice": "$3.38",
                 "quantity": 1,
                 "units": "18 oz",
-                "description": "Kelloggs"
-            }]
-
+                "description": "Kelloggs",
+                "category": "Snacks"
+                }]
+    
 }
+

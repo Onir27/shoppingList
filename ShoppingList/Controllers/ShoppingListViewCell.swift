@@ -10,15 +10,18 @@ import UIKit
 
 class ShoppingListViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    @IBOutlet weak var itemImage: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var itemDescription: UILabel!
+    @IBOutlet weak var itemQuantity: UILabel!
+    @IBOutlet weak var itemUnitPrice: UILabel!
+    
+    func setupWithItemData(_ item: ShoppingItem){
+        itemImage.image = UIImage(named: item.imageName)
+        name.text = item.name
+        itemDescription.text = item.description
+        itemQuantity.text = "Quantity: \(item.quantity)"
+        itemUnitPrice.text = "Price: \(item.unitPrice)"
     }
     
 }

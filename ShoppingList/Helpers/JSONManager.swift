@@ -58,3 +58,18 @@ struct ShoppingItemJSONManager: JSONManager {
     var filename : String {return  "ShoppingList"}
 }
 
+extension Sequence {
+    typealias E = Iterator.Element
+    func groupBy<K: Hashable>(handler: (E) -> K) -> [K: [E]] {
+        var grouped = [K: [E]]()
+        self.forEach { item in
+            let key = handler(item)
+            if grouped[key] == nil {
+                grouped[key] = []
+            }
+            grouped[key]?.append(item)
+        }
+        return grouped
+    }
+}
+
